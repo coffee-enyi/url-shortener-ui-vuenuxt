@@ -1,0 +1,1 @@
+export const REQUEST_URL = 'http://localhost:80/urishuto/public/api';
