@@ -28,7 +28,7 @@
           store.dispatch('updatevisits', response.data.visit_count)
         })
         .catch( error => {
-           alert('Error! Could not reach the API. ' + error)
+           alert('Error! Could not reach the API: ' + error)
         });
         
         if(store.state.redirecturl === 'not_found'){
