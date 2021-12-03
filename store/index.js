@@ -4,12 +4,14 @@ import Vuex from 'vuex'
 Vue.use(Vuex)
 
 export const state = () => ({
+
     redirecturl: '',
     tokenname: '',
     enteredurl: '',
     shortenedurl: '',
     basetimecount: 0,
     visitscount: 0
+    
   })
 
 export const mutations = {
