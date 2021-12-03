@@ -33,7 +33,7 @@
         const enteredurl = this.enteredurl.trim();
 
         if( ! enteredurl.length ){
-          this.errormsg = 'Please enter something';
+          this.errormsg = 'Please enter something...';
           return;
         }
 
