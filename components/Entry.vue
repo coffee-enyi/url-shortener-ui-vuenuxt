@@ -73,7 +73,7 @@
 
 <style scoped>
 .error-text{
-  color:chocolate !important;
+  color:red !important;
   margin-top: -15px;
   margin-bottom: -15px;
 } 
