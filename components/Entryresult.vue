@@ -10,16 +10,18 @@
 </template>
 
 <script>
+  import { state } from '../store'
+  
   export default {
      computed: {
 
       shortenedurl()
       { 
-        return this.$store.state.shortenedurl || 'something went wrong'; 
+        return state.shortenedurl || 'something went wrong'; 
       },
       enteredurl()
       {
-        return this.$store.state.enteredurl || false;
+        return state.enteredurl || false;
       }
     
     },

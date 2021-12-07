@@ -14,6 +14,7 @@
 <script>
  import axios from 'axios'
  import { REQUEST_URL } from '../constants.js'
+ // import { state } from '../store'
   
  export default {
     props: {'label': String},
@@ -37,10 +38,10 @@
           return;
         }
 
-        if( ! this.validURL(enteredurl)){
+       /* if( ! this.validURL(enteredurl)){
           this.errormsg = 'You may need to correct something';
           return;
-        }
+        } */
         this.errormsg = '';
 
         axios.post(REQUEST_URL + '/shorten-now',{
