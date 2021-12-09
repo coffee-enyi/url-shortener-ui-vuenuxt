@@ -38,10 +38,10 @@
           return;
         }
 
-       /* if( ! this.validURL(enteredurl)){
+        if( ! this.validURL(enteredurl)){
           this.errormsg = 'You may need to correct something';
           return;
-        } */
+        }
         this.errormsg = '';
 
         axios.post(REQUEST_URL + '/shorten-now',{
