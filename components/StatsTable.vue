@@ -34,7 +34,6 @@
 			 axios.get(`${REQUEST_URL}/stats/${this.tokenname}?page=1`)
         .then( response => { 
           // if(response.data.error){ alert('Record not found'); }
-alert(this.data.data);
           this.items = response.data.data;
 					this.paginatorlinks = response.data.links;
         })
